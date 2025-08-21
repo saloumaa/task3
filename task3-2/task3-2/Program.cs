@@ -30,7 +30,7 @@
         public string AddBook(Book book)
         {
             books.Add(book);
-            return ($"Book '{book.GetTitle()}' , '{book.GetAuthor}' , '{book.GetISBN}' , '{book.IsAvailable}' added successfully!");
+            return ($"Book '{book.GetTitle()}' , '{book.GetAuthor()}' , '{book.GetISBN()}' , '{book.IsAvailable()}' added successfully!");
         }
         public Book SearchBook(string title)
         {
